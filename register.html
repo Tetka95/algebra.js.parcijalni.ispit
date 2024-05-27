@@ -4,8 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registracija</title>
+    <link href="./register_style.css" rel="stylesheet">
 </head>
 <body>
-    
+    <form action="/action_page.php" style="border: 1px solid #ccc;">
+        <div class="container">
+            <p>Molim unesite podatke u formu za kreiranje novog računa.</p>
+            <hr>
+            <label for="mail"><b>Email</b></label>
+                <input type="text" name="mail" placeholder="Unesite Email">
+            <label for="lozinka1"><b>Lozinka</b></label>
+                <input type="password" name="lozinka1" placeholder="Unesite lozinku">
+            <label for="lozinka2"><b>Ponovite lozinku</b></label>
+                <input type="password" name="lozinka2" placeholder="Ponovite lozinku">
+                <br>
+                <a href="">Generiraj lozinku</a>
+                <br>
+            <div class="clearfix">
+                <button type="button" class="cancel">Odustani</button>
+                <button type="submit" class="signin">Prijava</button>
+            </div>
+        </div>
+    </form>
 </body>
 </html>

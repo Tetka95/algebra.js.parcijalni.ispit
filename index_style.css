@@ -47,28 +47,8 @@ button {
     margin: 24px 0 12px 0;
 }
 
-span.psw {
-    float: right;
-    padding-top: 16px;
-}
-
 .container {
     padding: 16px;
-}
-
-/* 
-extra mali ekrani - fix
-Promjena stila za span i odustani button 
-*/
-
-@media screen and (max-width: 300px) {
-    span.psw {
-        display: block;
-        float: none;
-    }
-    .odustani {
-        width: 100%;
-    }
 }
 
 button:hover {
