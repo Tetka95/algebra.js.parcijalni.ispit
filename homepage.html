@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
     <link href="./homepage_style.css" rel="stylesheet">
+    <script src="./homepage_script.js"></script>
 </head>
 <body>
     <header>
@@ -22,9 +23,13 @@
             Dodati neke reklame bezveze
         </aside>
         <article>
-            Dodati dva input boxa (brojevi) i tipku koja za 
-            unesene podatke vrati veću vrijednost u obliku 
-            alerta "Veći broj je x"
+            <input id="input1" readonly>
+            <button id="random1" onclick="randomNum1()">Random number 1</button>
+            <br>
+            <input id="input2" readonly>
+            <button id="random2" onclick="randomNum2()">Random number 2</button>
+            <br>
+            <button id="veciBrojButton" onclick="">Odredi veći broj</button>
         </article>
     </main>
     <footer>
