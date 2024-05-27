@@ -1,1 +1,37 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Forma</title>
+    <link href="./index_style.css" rel="stylesheet">
+    <script src="./index_script.js"></script>
+</head>
+<body>
+    <h2>Login Forma</h2>
+    <form action="" method="post">
+        <div class="imgcontainer">
+            <img src="./img/avatar.jpg" class="avatar" alt="slika profila">
+        </div>
+        <div class="container">
+            <label for="korisnicko_ime"><b>Korisničko ime (e-mail)</b></label>
+            <br>
+            <input type="email" placeholder="Unesite korisničko ime" name="korisnicko_ime" required>
+            <br>
+            <label for="lozinka"><b>Lozinka</b></label>
+            <br>
+            <input type="password" placeholder="Unesite lozinku" name="lozinka" required>
+        </div>
+        <div class="container">
+            <button type="submit">Login</button>
+            <label>
+                <input type="checkbox" checked name="zapamti">
+                Zapamti me
+            </label>
+        </div>
+        <div class="container" style="background-color: lightgray;">
+            <button class="registracija" type="button"><a href="./register.html">Registracija</a></button>
+        </div>
+    </form>
+</body>
+</html>
