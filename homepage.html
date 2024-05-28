@@ -11,18 +11,18 @@
     <header>
         <h1>Welcome</h1>
         <nav>
-            Media | Input | Registracija <!--staviti u a linkove-->
+            Media | <a>Random Number Calculator</a> | Registracija <!--staviti u a linkove-->
         </nav>
     </header>
     <main>
-        <article>
+        <article id="media">
             <video>Dodati neki video</video>
             <audio>Dodati neki audio s kontrolama za play</audio>
         </article>
         <aside>
             Dodati neke reklame bezveze
         </aside>
-        <article>
+        <article id="randomNumCalculator">
             <input id="prvi" readonly>
             <button id="random1" onclick="randomNum1()">Random number 1</button>
             <br>
@@ -33,8 +33,7 @@
         </article>
     </main>
     <footer>
-        copyright i godina (polje sa id-em "copyright-year" koje 
-        popunjava trenutnu godinu prilikom učitavanja javascripta)
+        &#169; 2024. <!--godina se popounjava automatski javascriptom tako da prati trenutnu godinu-->
     </footer>
 </body>
 </html>

@@ -18,3 +18,4 @@ function veciBroj () {
         return alert(input2.value + " je veći od " + input1.value);
     }
 }
+
