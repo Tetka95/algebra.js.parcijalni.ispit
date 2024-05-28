@@ -3,6 +3,26 @@ header, nav, body {
     text-align: center;
 }
 
+a {
+    color: cornflowerblue;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a:visited {
+    color: rgb(166, 112, 216);
+}
+
+aside {
+    width: 30%;
+          padding-left: 15px;
+          margin-left: 15px;
+          float: right;
+          font-style: italic;
+          background-color: pink;
+          text-align: center;
+}
+
 button {
     color: white;
     background-color: rgb(136, 124, 202);
