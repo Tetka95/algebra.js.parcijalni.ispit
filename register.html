@@ -13,14 +13,18 @@
             <p>Molimo unesite podatke u formu za kreiranje novog računa.</p>
             <hr>
             <label for="mail"><b>Email</b></label>
-                <input type="text" name="mail" placeholder="Unesite Email">
+                <input type="email" name="mail" placeholder="Unesite Email" required>
+
             <label for="lozinka1"><b>Lozinka</b></label>
-                <input type="password" name="lozinka1" placeholder="Unesite lozinku">
+                <input type="password" name="lozinka1" size="10" placeholder="Unesite lozinku" required>
+
             <label for="lozinka2"><b>Ponovite lozinku</b></label>
-                <input type="password" name="lozinka2" placeholder="Ponovite lozinku">
+                <input type="password" name="lozinka2" placeholder="Ponovite lozinku" required>
+                
                 <br>
-                <a onclick="">Generiraj lozinku</a>
+                <a onclick="genLozinku()">Generiraj lozinku</a>
                 <br>
+                
             <div class="clearfix">
                 <button type="button" class="cancel" onclick="document.location='homepage.html'">Odustani</button>
                 <button type="submit" class="signin">Prijava</button>
