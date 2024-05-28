@@ -19,3 +19,4 @@ function veciBroj () {
     }
 }
 
+///dodaj copyright znak i godinu u footer homepage-a
