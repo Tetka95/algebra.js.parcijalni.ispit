@@ -13,7 +13,7 @@ function veciBroj () {
     let input2 = document.getElementById("drugi");
 
     if (input1.value > input2.value) {
-        return alert(input1.value + " je veći od " + input2.value);
+        return alert(input1.value + " je veći od " + input2.value)
     } else {
         return alert(input2.value + " je veći od " + input1.value);
     }
